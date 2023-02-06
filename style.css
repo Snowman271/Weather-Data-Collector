@@ -1,0 +1,41 @@
+.main-header {
+    display: flex;
+    margin: 1%;
+    position: relative;
+    left: 800px;
+    font-size: 60px;
+    color: white;
+}
+.mainContainer {
+    background-color: rgb(20, 199, 115);
+    
+}
+
+.searchContainer {
+    background-color: white;
+    outline: black;
+    width: 12%;
+    height: 19%;
+    margin: 10px;
+    
+
+}
+
+.searchBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+ 
+}
+
+
+
+body {
+    margin: 0%;
+    background-color: rgb(39, 38, 37);
+}
