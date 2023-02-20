@@ -11,26 +11,55 @@
 
   <body>
     <header class="main-header">
-     <nav > Weather Dashboard</nav>
+     <nav class="navHeader"> 
+      <label class="dashboard"> Weather Dashboard </lavbel>
+     </nav>
     </header>
 
     <main class="mainContainer">
       <section class="search">
-        <h2>Search for a City: </h2>
+        <h1>Search for a City: </h1>
       </section>
-      <input class="searchInput" type="search" name="test" placeholder="Search">
+      <input class="searchInput" type="search" name="test" placeholder="San Diego">
       
         <button class="searchBtn"> Search </button>
     
-
-      <section class="weaherInfoContainer">
-        <div>  </div>
+      <section class="currentCityContainer">
+      
+        <div class="weatherInfoContainer">
+        <p class="currCity"> Atlanta (9/13/2022) *sun* </p>
+        <div class="temp">Temp: 76.62^F</div>
+        <div class="wind">Wind: 8.43 MPH</div>
+        <div class="hum">Humidity: 44 % </div>
+        </div>
       </section>
 
-      <section class="numberedForcast">
-        <header>5-Day Forcast: </header>
-      </section>
-      <div class="forcastContainer"> </div>
+    <section class="forecastContainer">
+       <div class="forecastTitleContainer">
+        <div>5-Day Forcast: </div>
+      </div> 
+      
+     <div class="forecastDaysContainer"> 
+      <section class="day1Box">
+      <div class="day1"> (9/13/2022) </div>
+      <div class="day1Sun"> *sun* </div>
+      <div class="day1Temp"> Temp: 76.62^F </div>
+      <div class="day1Wind"> Wind: 8.43 MPH </div>
+      <div class="day1Hum"> Humidity: 44 % </div>
+     </div> 
+    </section>
+    </section> 
+
+    <section class="optionsContainer">
+    <button class="atlanta">Atlanta</button>
+    <button class="denver">Denver</button>
+    <button class="Seattle">Seattle</button>
+    <button class="atlanta">San Fransisco </button>
+    <button class="orlando">Orlando</button>
+    <button class="newYork">New York</button>
+    <button class="chicago">Chicago</button>  
+
+    </section>  
 
     </main>
     <script src="./script.js"></script>
