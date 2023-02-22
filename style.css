@@ -61,7 +61,7 @@ label {
     border-style: solid;
     border-width: 1px;
     height: 250px;
-    line-height: 60px;
+    line-height: 50px;
     font-size: larger;
 }
 
@@ -98,9 +98,9 @@ p {
     width: 14%;
     background-color: rgb(47, 61, 79);
     color: white;
-    line-height: 27px;
+    line-height: 34px;
     font-size: large;
-    margin: 6px;
+    margin: 1px;
 }
 
 .day2Box {
@@ -108,12 +108,12 @@ p {
     width: 13%;
     background-color: rgb(47, 61, 79);
     color: white;
-    line-height: 27px;
+     line-height: 34px;
     font-size: large;
     margin: 6px;
     position: relative;
     left: 220px;
-    bottom: 210px;
+    bottom: 205px;
 }
 
 .day3Box {
@@ -121,12 +121,12 @@ p {
     width: 13%;
     background-color: rgb(47, 61, 79);
     color: white;
-    line-height: 27px;
+    line-height: 34px;
     font-size: large;
     margin: 6px;
     position: relative;
     left: 425px;
-    bottom: 420px;
+    bottom: 411px;
 }
 
 .day4Box {
@@ -134,12 +134,12 @@ p {
     width: 13%;
     background-color: rgb(47, 61, 79);
     color: white;
-    line-height: 27px;
+    line-height: 34px;
     font-size: large;
     margin: 6px;
     position: relative;
     left: 630px;
-    bottom: 630px;
+    bottom: 617px;
 }
 
 .day5Box {
@@ -147,12 +147,12 @@ p {
     width: 13%;
     background-color: rgb(47, 61, 79);
     color: white;
-    line-height: 27px;
+      line-height: 34px;
     font-size: large;
     margin: 6px;
     position: relative;
     left: 835px;
-    bottom: 840px;
+    bottom: 823px;
 }
 
 .day1 .day2 .day3 .day4 .day5 {
@@ -160,23 +160,28 @@ p {
 }
 
 .day1Box div {
-    margin: 10px;
+    margin: 0px;
+    margin-left: 10px;
 }
 
 .day2Box div {
-    margin: 10px;
+    margin: 0px;
+    margin-left: 10px;
 }
 
 .day3Box div {
-    margin: 10px;
+    margin: 0px;
+    margin-left: 10px;
 }
 
 .day4Box div {
-    margin: 10px;
+    margin: 0px;
+    margin-left: 10px;
 }
 
 .day5Box div {
-    margin: 10px;
+    margin: 0px;
+    margin-left: 10px;
 }
 
 
@@ -201,4 +206,15 @@ p {
 }
 .optionsContainer button:hover {
     background-color: #a679fc;
+}
+
+.icon {
+   width: 8%;
+   position: absolute;
+   top: 50px;
+   left: 180px;
+}
+
+.forecastContainer img {
+    width: 20%;
 }
