@@ -112,4 +112,40 @@ function searchCity5Day(input) {
   searchCity5Day(this.innerHTML);
 });
 
+document.querySelector(".denver").addEventListener("click", function () {
+  console.log(this.innerHTML);
+  searchCity(this.innerHTML);
+  searchCity5Day(this.innerHTML);
+});
+
+document.querySelector(".seattle").addEventListener("click", function () {
+  console.log(this.innerHTML);
+  searchCity(this.innerHTML);
+  searchCity5Day(this.innerHTML);
+});
+
+document.querySelector(".san").addEventListener("click", function () {
+  console.log(this.innerHTML);
+  searchCity(this.innerHTML);
+  searchCity5Day(this.innerHTML);
+});
+
+document.querySelector(".orlando").addEventListener("click", function () {
+  console.log(this.innerHTML);
+  searchCity(this.innerHTML);
+  searchCity5Day(this.innerHTML);
+});
+
+document.querySelector(".newYork").addEventListener("click", function () {
+  console.log(this.innerHTML);
+  searchCity(this.innerHTML);
+  searchCity5Day(this.innerHTML);
+});
+
+document.querySelector(".chicago").addEventListener("click", function () {
+  console.log(this.innerHTML);
+  searchCity(this.innerHTML);
+  searchCity5Day(this.innerHTML);
+});
+
 
